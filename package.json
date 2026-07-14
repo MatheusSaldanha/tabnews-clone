@@ -1,0 +1,21 @@
+{
+  "name": "tabnews-clone",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "baseline-browser-mapping": "^2.10.42",
+    "detect-libc": "^2.1.2",
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "semver": "^7.8.5",
+    "sharp": "^0.34.5"
+  }
+}
