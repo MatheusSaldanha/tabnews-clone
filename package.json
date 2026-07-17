@@ -8,14 +8,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "dependencies": {
-    "baseline-browser-mapping": "^2.10.42",
-    "detect-libc": "^2.1.2",
-    "next": "^16.2.10",
-    "react": "^19.2.7",
-    "semver": "^7.8.5",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.5"
   }
+
 }
